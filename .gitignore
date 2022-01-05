@@ -1,3 +1,7 @@
 node_modules/
 .env
-.database.json
+database.js
+npm-debug.log
+.DS_Store
+/*.envnpm-debug.log
+npm-debug.log
