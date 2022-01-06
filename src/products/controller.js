@@ -20,10 +20,19 @@ const addProduct = async (req, res) => {
      }
 }
 
+const obtenerProductos = async (req, res) => {
+     try {
+         const productos = await Producto.find()
+
+        console.log(productos)         
+     } catch (error) {
+         console.error(error);
+     }
+}
 
 
 const controller = {
-    addProduct
+    addProduct,obtenerProductos
 };
 
 module.exports = controller;

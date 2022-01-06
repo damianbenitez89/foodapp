@@ -3,7 +3,7 @@ const router = Router();
 const controller = require('./controller');
 
 
-//router.get('/productos', controller.obtenerProductos);
+router.get('/productos', controller.obtenerProductos);
 router.post('/productos', controller.addProduct);
 
 
